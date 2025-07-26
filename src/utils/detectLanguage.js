@@ -6,7 +6,7 @@ function detectLanguage(fileName){
         "html": "html",
         "py": "python",
         "rs": "rust",
-        "lua": "lua"
+        "lua": "lua",
         "c": "c",
         "cpp": "cpp",
         "cxx": "cpp"
