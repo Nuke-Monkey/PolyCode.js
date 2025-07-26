@@ -11,7 +11,7 @@ function detectLanguage(fileName){
         "cpp": "cpp",
         "cxx": "cpp"
     }
-    return languageMap[fileName.toLowercase.split(".")[1]] || null
+    return languageMap[fileName.toLowerCase().split(".")[1]] || null
 }
 
 export default detectLanguage
